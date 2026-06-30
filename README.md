@@ -279,10 +279,6 @@ cd backend
 uvicorn app.main:app --reload
 ```
 
-- Frontend: [http://localhost:3000](http://localhost:3000)
-- Backend API: [http://localhost:8000/docs](http://localhost:8000/docs) (Swagger UI)
-- ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
 ### Docker
 
 ```bash
@@ -379,16 +375,4 @@ All endpoints are prefixed with `/api/v1`.
 │   └── technical-report/     # Academic paper (PDF)
 └── docker-compose.yml        # Docker development environment
 ```
-
-## Contributing
-
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## Security
-
-To report security vulnerabilities, please see [SECURITY.md](SECURITY.md).
-
-## License
-
-[MIT](LICENSE) — Copyright (c) 2026 Javier de Jesus
 
